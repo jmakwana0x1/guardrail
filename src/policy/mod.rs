@@ -13,8 +13,6 @@
 //! 6. Asset allowlist
 //! 7. Destination allowlist
 
-use rust_decimal::Decimal;
-
 use crate::{
     config::GuardrailConfig,
     types::{BudgetSnapshot, Decision, PaymentIntent},
